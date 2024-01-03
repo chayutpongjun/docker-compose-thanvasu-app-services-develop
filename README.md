@@ -1,1 +1,0 @@
-# docker-compose-thanvasu-app-services-develop
