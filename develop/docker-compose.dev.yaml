@@ -37,5 +37,14 @@ services:
     ports:
       - 8081:8081
 
+
+    backend-herma:
+    image: thanvasu/api-herma:v0.0.5.dev
+    networks:
+      - networks_thanvasu_dev
+    container_name: api-herma-dev
+    ports:
+      - 8083:8083
+
 networks:
   networks_thanvasu_dev:

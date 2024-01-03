@@ -31,3 +31,8 @@ down-web-thachang-admin-dev:
 
 down-proxy-dev:
 	docker-compose -f ./develop/docker-compose.dev.yaml stop proxy
+
+
+up-api-herma-dev:
+	docker-compose -f ./develop/docker-compose.dev.yaml up -d backend-herma
+
